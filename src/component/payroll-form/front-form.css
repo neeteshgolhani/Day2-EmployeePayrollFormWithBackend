@@ -1,0 +1,125 @@
+/* payroll-form.css */
+
+/* Style the header */
+.header {
+  background-color: #ffffff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Style the logo container */
+.logo-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the logo image */
+.logo-content img {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Style the logo text */
+.emp-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style the "Add User" button */
+#add-user-button {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style table headers */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table cells */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style alternating table rows */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the "Action" column */
+td:last-child {
+  text-align: center;
+}
+
+/* Style the action buttons */
+.action-buttons button {
+  background-color: #dc3545; /* Red color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Style the action buttons on hover */
+.action-buttons button:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
+/* CSS for the search icon */
+.search-icon {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 287px; /* Adjust the margin as needed */
+}
+
+.search-icon img {
+  width: 47px; /* Adjust the size of the search icon */
+  height: 47px;
+}
+
+/* CSS for the search box */
+.search-box {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.search-box input[type="text"] {
+  width: 200px; /* Adjust the width of the input field */
+  padding: 5px;
+  font-size: 14px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #9affa2; /* Adjust the button background color */
+  color: #fff; /* Adjust the button text color */
+  border: none;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #007bff; /* Adjust the button background color on hover */
+}

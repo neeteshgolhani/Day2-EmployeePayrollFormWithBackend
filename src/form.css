@@ -1,0 +1,130 @@
+body {
+    margin: 0; height: 100%;
+}
+
+.header{
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+.header-content {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    border: 0px solid rgb(0, 110, 255);
+}
+    
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid rgb(217, 255, 0); 
+    width: 80%;
+}  
+.logo-content-ing { border: solid 0px #42515f; }
+    
+.emp-text{
+    Font: norma normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #2007ff;
+    text-transform: capitalize; 
+}
+
+.emp-payroll{
+    color: #000000; }
+      body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      width: 600px;
+      background-color: #bdbdbd; 
+      border-radius: 2px;
+      box-shadow: 1px 1px 0px 15px rgb(153 132 132 / 37%);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #4CAF50;}
+      input{
+      margin-right: 2;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .profile-radio-content {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0%;
+        
+    }
+        
+    .profile-radio-content > label{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .profile { 
+        width: 40px;
+        border-radius: 50%;
+        margin-left: 12px;
+    }
+    
+    .row-content1 >label{
+        display: flex;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .checkbox {
+      margin-right: 10px;
+    }
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      .button-container input[type="button"],
+      .button-container input[type="reset"],
+      .button-container input[type="submit"] {
+        flex: 1;
+        margin-right: 5px;
+        background-color: #4CAF50;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      .button-container input[type="button"]:hover,
+      .button-container input[type="reset"]:hover,
+      .button-container input[type="submit"]:hover {
+        background-color: #efff60;
+      }
+  
+      .button-container input[type="button"]:last-child {
+        margin-right: 0;
+      }
+    
+*{box-sizing: border-box;}
